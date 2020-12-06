@@ -12,7 +12,9 @@ if __name__ == '__main__':
     urls = InstaScrapeV9Specific.all_post_links(hashtag, numPosts)
     #get first mumPost urls from hashtag page
 
-    listOfKWs = ['poverty', 'inequality', 'aids', 'hiv', 'conservation', 'hair']
+    listOfKWs = ['poverty', 'inequality', 'aids', 'hiv', 'conservation',
+                 'covid', 'voting', 'racism', 'blm', 'lgbt','indigenous','lgbt']
+
     urlsWKW = InstaScrapeV9Specific.search_thru_comments(urls, listOfKWs)
     print(urlsWKW)
     #add the urls that contain KWs to urlsWKW
