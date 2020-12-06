@@ -1,13 +1,15 @@
 """
-Created on 6/2/2020
+Created on 12/5/2020
+copied
 
 @author: sophie
 """
 
 
-#this one has new function at top which works to go through all posts
+# this one has new function at top which works to go through all posts. and
+# list of hashtags for hackduke
 
-
+from openpyxl import Workbook
 import pandas as pd
 import time
 from selenium import webdriver
